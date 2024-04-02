@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <form action="">
+        <!--<div class="nombre">-->
+        <label for="nombre">Nombres</label>
+        <input type="text" name="nombre" required id="nombre" placeholder="Nombres">
+        <!--</div>-->
+        <!--<div class="apellido">-->
+        <br>
+        <br>
+        <label for="apellido">Apellidos</label> 
+        <input type="text" name="apellido" required id="apellido" placeholder="Apellidos">
+        <!--</div>-->
+        <hr>
+        <label for="">Fecha de nacimiento</label>
+        <label for="">dia</label>
+        <input type="number" name="dia" id="dias" min="1" max="31">
+        <label for="">mes</label>
+        <input type="number" name="meses" id="meses" min="1" max="12">
+        <label for="">año</label>
+        <input type="number" name="años" id="años" min="1900" max="2024">
+
+        <br>
+
+        <label for="">Sexo</label>
+        <input type="radio" name="mayor" id="Mujer" value="Mujer">
+        <label for="">Mujer</label>
+        <input type="radio" name="mayor" id="Hombre" value="Hombre">
+        <label for="">Hombre</label>
+
+        <hr>
+
+        <label for="">Asunto</label>
+        <input type="text" name="asunto" id="asunto" required>
+
+        <br>
+        <br>
+
+        <label for="">Comentarios</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+
+        <button type="submit">Ingresar</button>
+
+        
+    </form>
+</body>
+</html>
